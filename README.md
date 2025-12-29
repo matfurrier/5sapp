@@ -4,6 +4,8 @@
 - [Português 🇧🇷](#português)  
 - [English 🇺🇸](#english)
 
+- 📐 Diagramas: [Arquitetura e Fluxos](docs/diagrams/architecture.md)
+
 ---
 
 <img width="949" height="846" alt="%s" src="https://github.com/user-attachments/assets/93aa7205-7c0c-403a-ac41-f139abb056ac" />
