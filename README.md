@@ -4,7 +4,7 @@
 - [Português 🇧🇷](#português)  
 - [English 🇺🇸](#english)
 
-- 📐 Diagramas: [Arquitetura e Fluxos](docs/diagrams/architecture.md)
+- 📐 Diagramas: [Arquitetura e Fluxos](docs/diagrams/diagrams_5S_De_Sangosse.md)
 
 ---
 
