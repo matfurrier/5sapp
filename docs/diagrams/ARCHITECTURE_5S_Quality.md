@@ -1,4 +1,4 @@
-# Diagramas – 5S De Sangosse
+# Diagramas – 5S Quality Audits
 
 ## Arquitetura Geral (Mermaid)
 
@@ -14,8 +14,8 @@ flowchart LR
     end
 
     subgraph Databases
-        D[(PostgreSQL<br/>quality5s)]
-        E[(PostgreSQL<br/>security)]
+        D[(PostgreSQL<br/>app data)]
+        E[(PostgreSQL<br/>auth/security)]
     end
 
     A -->|JWT / REST| C

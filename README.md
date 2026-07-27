@@ -1,10 +1,10 @@
-# 5S De Sangosse – Quality Audits & Action Plans
+# 5S Quality Audits & Action Plans
 
 🔗 **Languages:**  
 - [Português 🇧🇷](#português)  
 - [English 🇺🇸](#english)
 
-- 📐 Diagramas: [Arquitetura e Fluxos](docs/diagrams/diagrams_5S_De_Sangosse.md)
+- 📐 Diagramas: [Arquitetura e Fluxos](docs/diagrams/ARCHITECTURE_5S_Quality.md)
 
 ---
 
@@ -17,7 +17,7 @@
 
 ### Visão Geral
 
-Aplicação web corporativa para **gestão de auditorias 5S**, **não conformidades** e **planos de ação**, utilizada pela área de Qualidade da **De Sangosse**.
+Aplicação web corporativa para **gestão de auditorias 5S**, **não conformidades** e **planos de ação**, utilizada pela área de Qualidade de uma multinacional francesa do agronegócio (subsidiária brasileira).
 
 📌 **Status:** validação final / rollout  
 📌 **Tipo:** sistema corporativo interno  
@@ -41,10 +41,10 @@ Aplicação web corporativa para **gestão de auditorias 5S**, **não conformida
 - Planejamento e execução de auditorias 5S  
 - Registro de respostas por pergunta e senso  
 - Cálculo automático de scores  
-- Gestão de não conformidades  
-- Planos de ação com responsáveis e prazos  
+- Gestão de não conformidades com evidência fotográfica  
+- Planos de ação com responsáveis, prazos e fotos de resolução  
 - Fluxo mobile dedicado  
-- Dashboards gerenciais  
+- Dashboards gerenciais com indicadores por período, setor e área  
 - Controle de acesso por perfil  
 - Integração com banco corporativo de usuários  
 
@@ -60,7 +60,7 @@ Aplicação web corporativa para **gestão de auditorias 5S**, **não conformida
  -------------------  
  |        |  
 [ PostgreSQL ] [ PostgreSQL ]  
-[ quality5s ] [ security ]  
+[ app data ] [ auth/security ]  
 
 ---
 
@@ -106,7 +106,7 @@ Aplicação web corporativa para **gestão de auditorias 5S**, **não conformida
 
 ### Overview
 
-Corporate web application for **5S audits**, **non-conformities**, and **action plan management**, used by the Quality department at **De Sangosse**.
+Corporate web application for **5S audits**, **non-conformities**, and **action plan management**, used by the Quality department of a French agribusiness multinational (Brazilian subsidiary).
 
 📌 **Status:** final validation / rollout  
 📌 **Type:** internal corporate system  
@@ -130,10 +130,10 @@ Corporate web application for **5S audits**, **non-conformities**, and **action 
 - Planning and execution of 5S audits  
 - Answer recording per question and sense  
 - Automatic score calculation  
-- Non-conformity tracking  
-- Action plan management with owners and deadlines  
+- Non-conformity tracking with photo evidence  
+- Action plan management with owners, deadlines and resolution photos  
 - Dedicated mobile audit flow  
-- Management dashboards  
+- Management dashboards with indicators by period, sector and area  
 - Role-based access control  
 - Integration with corporate user database  
 
